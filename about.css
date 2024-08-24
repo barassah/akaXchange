@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.content {
+    margin: 20px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content p {
+    max-width: 500px;
+}
+
+.content p span {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.content .aka-img {
+    width: 500px;
+}
+
+.akamom-section {
+    margin: 20px 80px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.akamom-section h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.akamom-section p {
+    max-width: 500px;
+}
+
+.akahyd-section {
+    margin: 20px 80px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.akahyd-section h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.akahyd-section p {
+    max-width: 500px;
+}
+
+.akamap-section {
+    margin: 20px 80px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.akamap-section h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.akamap-section p {
+    max-width: 500px;
+}

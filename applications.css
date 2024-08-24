@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.description {
+    padding: 10px 0px 50px 50px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.new-application {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    text-align: center;
+}
+
+.new-application h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.new-application p {
+    margin-bottom: 20px;
+}
+
+.existing-application {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    text-align: center;
+}
+
+.existing-application h1 {
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.existing-application p {
+    margin-bottom: 20px;
+}
+
+.new-application {
+    border: 3px solid #008141;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.new-application button {
+    background-color: #008141;
+    border: 1px solid #008141;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.existing-application {
+    border: 3px solid #008141;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.existing-application button {
+    background-color: #008141;
+    border: 1px solid #008141;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="faqs.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="scrollbar.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Portal - Aga Khan Academies</title>
+</head>
+<body>
+    <div class="navbar">
+        <img src="img/logo.png" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="applications.html">Applications</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <h1 class="title">Frequently Asked Questions (FAQs)</h1>
+        <div class="faq active">
+            <button class="accordion">
+                Who can participate in the exchange program?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>The exchange program is open to students enrolled at the participating academies in Mombasa, Maputo, and Hyderabad. Eligibility criteria may vary slightly between academies, but generally include academic performance, language proficiency, and demonstrated interest in cultural exchange.</p>
+            </div>
+        </div>
+        <div class="faq active">
+            <button class="accordion">
+                What are the benefits of participating in the exchange program?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>Participating students gain valuable cultural understanding, academic enrichment, and global networking opportunities. They also develop language skills, broaden their perspectives, and enhance their resume with international experience.</p>
+            </div>
+        </div>
+        <div class="faq active">
+            <button class="accordion">
+                How long does the exchange program last?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>The duration of the exchange program, typically ranges from three months. Specific timelines and schedules will be provided upon acceptance into the program.</p>
+            </div>
+        </div>
+        <div class="faq active">
+            <button class="accordion">
+                How are students selected for the exchange program?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>Students are selected based on academic merit, language proficiency, personal statements or essays, and recommendations from faculty members. Each academy may have its own selection committee and criteria.</p>
+            </div>
+        </div>
+        <div class="faq active">
+            <button class="accordion">
+                Will participating in the exchange program affect my academic progress?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>Academic credits earned during the exchange program are typically transferable back to your home academy, subject to approval by academic advisors and relevant departments. It is important to consult with your academic advisor prior to departure.</p>
+            </div>
+        </div>
+        <div class="faq active">
+            <button class="accordion">
+                What expenses are covered by the exchange program?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>The exchange program may cover expenses such as tuition fees at the host academy, accommodation arrangements, and sometimes a stipend for living expenses. Specific details on financial support will be provided during the application process.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <img class="logo-footer" src="img/logo.png">
+                </div>
+                <div class="footer-col">
+                    <h4>Aga Khan Academy Mombasa</h4>
+                    <ul>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">Website</a></li>
+                        <li><a href="#">Campus</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Aga Khan Academy Hyderabad</h4>
+                    <ul>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">Website</a></li>
+                        <li><a href="#">Campus</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Aga Khan Academy <br> Maputo</h4>
+                    <ul>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">Website</a></li>
+                        <li><a href="#">Campus</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <hr>
+    <div class="copyright">
+        <p>©️ Aga Khan Academies - 2024</p>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                this.parentElement.classList.toggle("active");
+                var panel = this.nextElementSibling;
+
+                if(panel.style.display == "block") {
+                    panel.style.display = "none";
+                }
+                else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
