@@ -15,7 +15,7 @@ html {
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(165, 173, 175);
+    background-color: rgb(115, 151, 151);
     width: 50%;
     margin-left: 25%;
 
@@ -24,5 +24,5 @@ h1,h2 {
     text-align: center;
 }
 hr{
-    background-color: indigo;
+    background-color: rgb(154, 73, 201);
 }

@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="shortcut icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="new-application.css">
+    <link rel="stylesheet" href="parent.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="scrollbar.css">
@@ -25,62 +25,41 @@
     </div>
     <h1>New Application</h1>
     <div>
-        <h2>Student Information Form</h2>
+        <h2>Parent/Guardian Information Form</h2>
         <div class="form">
         <form action="insert.php" method="post">
         <table cellpadding="0" cellspacing="15">
             <tr><td align="right">
-            <label for="name">Full Name:</label></td><td>
+            <label for="name">Parent/Guardian Full Name:</label></td><td>
             <input type="text" id="name" name="name" required></td>
             </tr>
             <tr><td align="right">
-            <label for="age">Age:</label></td><td>
-            <input type="number" id="age" name="age" required></td>
+            <label for="number">Parent/Guardian Contact Number:</label></td><td>
+            <input type="number" id="number" name="number" required></td>
             </tr>
             <tr><td align="right">
-            <label for="nationality">Nationality:</label></td><td>
-            <input type="text" id="nationality" name="nationality" required></td>
+            <label for="Relationship">Relationship to Student:</label></td><td>
+            <input type="text" id="Relationship" name="Relationship" required></td>
             </tr>
             <tr><td align="right">
-            <label for="religion">Religion:</label></td><td>
+            <label for="religion">Parent/Guardian 2 Full Name:</label></td><td>
             <input type="text" id="religion" name="religion" required></td>
             </tr>
             <tr><td align="right">
-            <label for="class">Class/Stream:</label></td><td>
+            <label for="email">Email Address:</label></td><td>
+            <input type="text" id="religion" name="religion" required></td>
+            </tr>
+            <tr><td align="right">
+            <label for="number">Parent/Guardian 2 Contact Number:</label></td><td>
             <input type="text" id="class" name="class" required></td>
             </tr>
             <tr><td align="right">            
-            <label for="homeAcademy">Home Academy:</label></td><td>
-             <select  id="homeAcademy" name="home_academy" required>
-                <option>Select Home Academy</option>
-                <option value="Mombasa">Mombasa</option>
-                <option value="Maputo">Maputo</option>
-                <option value="Hyderabad">Hyderabad</option>
-              </select></td>
+            <label for="Relationship">Relationship to Student 2:</label></td><td>
+            <input type="text" id="Relationship" name="Relationship" required></td>
             </tr>
-            <tr><td align="right">     
-            <label for="hostAcademy">Host Academy:</label></td><td>
-            <input type="text" id="hostAcademy" name="host_academy" required></td>
-            </tr>
-            <tr><td align="right">        
-            <label for="residential">Residential or Day student:</label></td><td>
-            <select id="residential" name="residential" required>
-                <option>Select</option>
-                <option value="Residential">Residential</option>
-                <option value="Day">Day</option>
-              </select></td>
-            </tr>
-            <tr><td align="right"> 
-            <label for="studentID">Student ID:</label></td><td>
-            <input type="text" id="studentID" name="student_id" required></td>
-            </tr>
-            <tr><td align="right">            
-            <label for="financialAid" >Financial Aid:</label></td><td>
-            <select  id="financialAid" name="financial_aid" required>
-                <option>Select</option>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-              </select></td>
+            <tr><td align="right">
+            <label for="email">Email Address 2:</label></td><td>
+            <input type="text" id="religion" name="religion" required></td>
             </tr>
             <tr><td>&nbsp;</td></tr>
             <tr><td colspan="2" align="center"><hr size="5">  
